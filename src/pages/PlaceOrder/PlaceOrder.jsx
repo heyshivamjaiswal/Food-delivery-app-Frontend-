@@ -6,7 +6,7 @@ const PlaceOrder = () => {
   const { getTotalCartAmount } = useContext(StoreContext);
   return (
     <form className="place-order">
-      <div className="place-order-left">
+      <div className="place-order-left">          
         <p className="title">Delivery Information</p>
         <div className="multi-fields">
           <input type="text" placeholder="First Name" />
